@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="utf-8">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="user-container">
+                대화명 : <input type="text" id="nickname"
+            </div>
+            <div class="display-container">
+                <ul class="chatting-list">
+
+                </ul>
+            </div>
+            <div class="input-container">
+                <input type="test" class="chatting-input">
+                <button class="send-button">전송</button>
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script> <!--해당 라이브러리를 html파일에서 사용하게끔 하는 코드-->
+        <script src="js/chat.js"></script>
+    </body>
+
+</html>
